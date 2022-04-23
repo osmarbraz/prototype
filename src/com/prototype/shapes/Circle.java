@@ -1,4 +1,4 @@
-package com.prototype;
+package com.prototype.shapes;
 
 public class Circle extends Shape {
     public int radius;

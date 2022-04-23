@@ -1,6 +1,6 @@
-import com.prototype.Circle;
-import com.prototype.Rectangle;
-import com.prototype.Shape;
+import com.prototype.shapes.Circle;
+import com.prototype.shapes.Rectangle;
+import com.prototype.shapes.Shape;
 import java.util.ArrayList;
 import java.util.List;
 

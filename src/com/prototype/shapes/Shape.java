@@ -1,5 +1,5 @@
 
-package com.prototype;
+package com.prototype.shapes;
 
 import java.util.Objects;
 
