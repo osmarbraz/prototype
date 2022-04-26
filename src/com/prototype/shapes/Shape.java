@@ -14,8 +14,14 @@ public abstract class Shape {
     public Shape(Shape target) {
         if (target != null) {
             this.setX(target.getX());
+            //A linha anterior é equivalente a
+            //this.x = target.x;
             this.setY(target.getY());
+            //A linha anterior é equivalente a
+            //this.y = target.y;
             this.setColor(target.getColor());
+            //A linha anterior é equivalente a            
+            //this.color = target.color;
         }
     }
 
@@ -52,5 +58,7 @@ public abstract class Shape {
         }
         Shape shape2 = (Shape) object2;
         return shape2.getX() == getX() && shape2.getY() == getY() && Objects.equals(shape2.getColor(), getColor());
+        //A linha anterior é equivalente a
+        //return shape2.x == x && shape2.y == y && Objects.equals(shape2.color, color);
     }
 }

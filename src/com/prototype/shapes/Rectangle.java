@@ -28,7 +28,11 @@ public class Rectangle extends Shape {
         super(target);
         if (target != null) {
             this.setWidth(target.getWidth());
+            //A linha anterior é equivalente a
+            //this.width = target.width;
             this.setHeight(target.getHeight());
+            //A linha anterior é equivalente a
+            //this.height = target.height;
         }
     }
 
@@ -44,5 +48,7 @@ public class Rectangle extends Shape {
         }
         Rectangle shape2 = (Rectangle) object2;
         return shape2.getWidth() == getWidth() && shape2.getHeight() == getHeight();
+        //A linha anterior é equivalente a
+        //return shape2.width == width && shape2.height == height;
     }
 }

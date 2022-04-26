@@ -13,9 +13,17 @@ public class Principal {
 
         Circle circle = new Circle();
         circle.setX(10);
+        //A linha anterior é equivalente próxima a se x fosse públíco
+        //circle.x = 10;        
         circle.setY(20);
+        //A linha anterior é equivalente próxima a se y fosse públíco
+        //circle.y = 20;
         circle.setRadius(15);
+        //A linha anterior é equivalente próxima a se radius fosse públíco
+        //circle.radius = 15;
         circle.setColor("red");
+        //A linha anterior é equivalente próxima a se color fosse público
+        //circle.color = "red";
         shapes.add(circle);
 
         Circle anotherCircle = (Circle) circle.clone();
@@ -23,8 +31,14 @@ public class Principal {
 
         Rectangle rectangle = new Rectangle();
         rectangle.setWidth(10);
+        //A linha anterior é equivalente próxima a se width fosse público
+        //rectangle.width = 10;        
         rectangle.setHeight(20);
+        //A linha anterior é equivalente próxima a se height fosse público
+        //rectangle.height = 20;
         rectangle.setColor("blue");
+        //A linha anterior é equivalente próxima a se color fosse público
+        //rectangle.color = "blue";
         shapes.add(rectangle);
 
         cloneAndCompare(shapes, shapesCopy);
